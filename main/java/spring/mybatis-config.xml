@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="main.bean.MainDTO" alias="main" />
+		<typeAlias type="home.bean.HomeDTO" alias="home"/>
+		<typeAlias type="webtoon.bean.WebtoonDTO" alias="webtoon"/>
+		<typeAlias type="payment.bean.PaymentDTO" alias="payment" />
+		<typeAlias type="search.bean.SearchMovieDataDTO" alias="search" />
+
+	</typeAliases>
+	
+<!-- 	<mappers>
+		<mapper resource="main/dao/mainMapper.xml" />
+	</mappers> -->
+</configuration>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
